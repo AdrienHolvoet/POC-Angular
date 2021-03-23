@@ -1,0 +1,13 @@
+{
+  "demo": {
+    "title": "Translation demo",
+    "text": "This is a simple demonstration app for ngx-translate",
+    "greeting": "Hello {{name}}!"
+  },
+  "goto": "Go to",
+
+  "devices": {
+    "title": "My devices",
+    "lightUp": "Light it all"
+  }
+}

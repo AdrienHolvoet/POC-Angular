@@ -1,0 +1,9 @@
+<app-header title="Test Route"></app-header>
+<div class="container">
+  <h1>
+    <a routerLink="">Go Back to home</a>
+    {{ 'demo.title' | translate: {name: 'Team'} }}
+  </h1>
+  <h3>{{ 'demo.text' | translate }}</h3>
+  <p>{{ 'demo.greeting' | translate: {name: 'Team'} }}</p>
+</div>

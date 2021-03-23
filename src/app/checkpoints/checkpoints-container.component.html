@@ -1,0 +1,5 @@
+<div class="container">
+<app-checkpoint-details *ngFor="let checkpoint of checkpoints"
+[checkpointId]="checkpoint.publicId"
+[checkpointName]="checkpoint.name"></app-checkpoint-details>
+</div>
